@@ -99,7 +99,7 @@ Once you have the Svelte set up complete, you need to make changes in it.
     
     > In your directory, look for 'src', it contains App.svelte file
 
-    > Replace everything with the code from [App.svelte](https://github.com/vidhanbhonsle/Send-messages-using-Svelte-and-Telnyx-API/blob/main/App.svelte)
+    > Replace everything the code with the code provided in [App.svelte](https://github.com/vidhanbhonsle/Send-messages-using-Svelte-and-Telnyx-API/blob/main/App.svelte)
 
     > Provide "YOUR_KEY" and "YOUR_TELNYX_NUMBER" value which you acquired in step 1
 
