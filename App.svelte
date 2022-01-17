@@ -14,7 +14,7 @@
 			myHeaders.append("Authorization", "Bearer YOUR_KEY");
 
 			var raw = JSON.stringify({
-			"from": "+16062291483",
+			"from": "YOUR_TELNYX_NUMBER",
 			"to": formValues.country+formValues.telephone,
 			"text": formValues.message
 			});
@@ -57,11 +57,7 @@
 			<button>Send</button>
 		</div>
 	</form>
-	<!-- <div>
-		<pre>
-			{JSON.stringify(formValues, null, 2)}
-		</pre>
-	</div> -->
+
 </main>
 
 <style>
