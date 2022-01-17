@@ -5,8 +5,8 @@ A simple web based application for sending SMS using [Svelte framework](https://
  
  * Telnyx Developer Account (https://developers.telnyx.com/)
  * Code IDE or text Editor
- * [Node. js](https://nodejs.org/en/) ≥v6 is installed on your machine
- * npm is installed on your machine
+ * [Node. js](https://nodejs.org/en/) ≥v6
+ * npm
  * Familiarity with HTML, CSS, and JavaScript
  * A basic understanding of component-based frameworks like React is helpful but not required
 
