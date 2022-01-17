@@ -79,9 +79,9 @@ Svelte provides a different approach to building web apps than some of the other
     npm run dev # or yarn dev
     ```
 
-    > Now you should see the message in your command prompt confirming the application is ready, and it is running locally on [<https://localhost:5000>]
+    > Now you should see the message in your command prompt confirming the application is ready, and it is running locally on [<https://localhost:8080>]
     
-    <img src='./img/inbound_webhook.png' width="800"/>
+    <img src='./img/svelte_link.png' width="800"/>
 </p></details>
 
 ___
