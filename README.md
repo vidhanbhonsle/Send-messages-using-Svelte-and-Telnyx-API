@@ -110,7 +110,7 @@ Once you have the Svelte set up complete, you need to make changes in it.
     npm run dev # or yarn dev
     ```
 
-    > You will get a link to the application[<https://localhost:8080>] open it in a browser and start sending SMS!
+    > Open the link[<https://localhost:8080>] to the application in a browser of your choice and start sending SMS!
     
     <img src='./img/final_out.PNG' width="800"/>
 ___
