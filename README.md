@@ -56,8 +56,13 @@ Svelte provides a different approach to building web apps than some of the other
 <details>
 <summary><strong>Steps to follow</strong> (click to expand)</summary><p>
 
- 1. Open terminal or A code editor
-    > Go to https://dashboard.ngrok.com/signup and create an account.
+ 1. Create Svelte application skeleton
+    > Open terminal/command prompt or code editor
+    > Run following command
+     ``` shell
+    npx degit sveltejs/template YOUR_PROJECT_NAME
+    ``` 
+    degit is a project scaffolding tool to create skeleton.
 
  2. Obtain the ngrok setup file and follow the steps mentioned
     > Download the ngrok setup file as per your OS from https://dashboard.ngrok.com/get-started/setup and follow the steps mentioned on the page.
