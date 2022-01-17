@@ -103,10 +103,13 @@ Once you have the Svelte set up complete, you need to make changes in it.
 
     > Provide "YOUR_KEY" and "YOUR_TELNYX_NUMBER" value which you acquired in step 1
 
+ 2. Run the code   
+
     > Save the work and run the code using following command:
      ``` shell
     npm run dev # or yarn dev
     ```
+
     > You will get a link to the application[<https://localhost:8080>] open it in a browser and start sending SMS!
     
     <img src='./img/final_out.PNG' width="800"/>
