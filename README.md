@@ -5,8 +5,7 @@ A simple web based application for sending SMS using [Svelte framework](https://
  
  * Telnyx Developer Account (https://developers.telnyx.com/)
  * Code IDE or text Editor
- * terminal or shell or command prompt
- * Node. js ≥v6 is installed on your machine
+ * [Node. js](https://nodejs.org/en/) ≥v6 is installed on your machine
  * npm is installed on your machine
  * Familiarity with HTML, CSS, and JavaScript
  * A basic understanding of component-based frameworks like React is helpful but not required
@@ -51,6 +50,50 @@ A simple web based application for sending SMS using [Svelte framework](https://
 
 ___
 
+### Step 2: Svelte Setup
+Svelte provides a different approach to building web apps than some of the other frameworks. While frameworks like React and Vue do the bulk of their work in the user's browser while the app is running, Svelte shifts that work into a compile step that happens only when you build your app, producing highly-optimized vanilla JavaScript.
 
+<details>
+<summary><strong>Steps to follow</strong> (click to expand)</summary><p>
+
+ 1. Open terminal or A code editor
+    > Go to https://dashboard.ngrok.com/signup and create an account.
+
+ 2. Obtain the ngrok setup file and follow the steps mentioned
+    > Download the ngrok setup file as per your OS from https://dashboard.ngrok.com/get-started/setup and follow the steps mentioned on the page.
+    
+    > You need to run the setup file (It has zero run-time dependencies!)
+    
+    > In the `Step 3`, you need to change the command to
+     ``` shell
+    ngrok http 5000
+    ```
+    > After running the above command, you would see something similar to following:
+    
+    <img src='./img/ngrok_tunnel.png' width="800"/> 
+
+    > Copy the highlighted 'Forwarding' address. we will need it in next step. 
+
+    ``` shell
+    http://0ab4-2405-201-300a-ecf1-201a-6ad8-c0d4-eddd.ngrok.io
+    ```
+ 3. Edit Telnyx messaging profile to add webhook
+    
+    > Go to [messaging profile](https://portal.telnyx.com/#/app/messaging) and click on the message profile you created earlier.
+
+    > It will open "Edit Messaging Profile" page, here under "Inbound Settings" you need to provide value to 'Send a webhook to this URL' 
+
+    > The value is Forwarding address we copied in the previous step. Append it with '/webhooks'. It will look like this -
+
+    ``` shell
+    http://0ab4-2405-201-300a-ecf1-201a-6ad8-c0d4-eddd.ngrok.io/webhooks
+    ```
+    <img src='./img/inbound_webhook.png' width="800"/>
+
+    > **Always keep the ngrok process running, do not stop it or restart it!** Because it will lead to a changed URL, which then will require you to repeat the above steps each time.
+    
+</p></details>
+
+___
 
 
