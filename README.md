@@ -90,4 +90,25 @@ Svelte provides a different approach to building web apps than some of the other
 
 ___
 
+### Step 3: Creating SMS code
+Once you have the Svelte set up complete, you need to make changes in it.
+<details>
+<summary><strong>Steps to follow</strong> (click to expand)</summary><p>
+
+ 1. Copy and paste code from [App.svelte](https://github.com/vidhanbhonsle/Send-messages-using-Svelte-and-Telnyx-API/blob/main/App.svelte) file
+    
+    > In your directory, look for 'src', it contains App.svelte file
+
+    > Replace everything with the code from [App.svelte](https://github.com/vidhanbhonsle/Send-messages-using-Svelte-and-Telnyx-API/blob/main/App.svelte)
+
+    > Provide "YOUR_KEY" and "YOUR_TELNYX_NUMBER" value which you acquired in step 1
+
+    > Save the work and run the code using following command:
+     ``` shell
+    npm run dev # or yarn dev
+    ```
+___
+
+**Congratulations! You have created your own SMS Auto Responder App**
+</p></details>
 
