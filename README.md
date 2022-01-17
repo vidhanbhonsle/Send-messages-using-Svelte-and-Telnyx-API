@@ -109,6 +109,6 @@ Once you have the Svelte set up complete, you need to make changes in it.
     ```
 ___
 
-**Congratulations! You have created your own SMS Auto Responder App**
+**Congratulations! You have created your own SMS App using Svelte and Telnyx API**
 </p></details>
 
