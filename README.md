@@ -58,6 +58,7 @@ Svelte provides a different approach to building web apps than some of the other
 
  1. Create Svelte application skeleton
     > Open terminal/command prompt or code editor
+    
     > Run following command
      ``` shell
     npx degit sveltejs/template YOUR_PROJECT_NAME
